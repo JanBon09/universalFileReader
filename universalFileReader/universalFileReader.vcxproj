@@ -132,7 +132,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BGE_ContentConverter.hpp" />
     <ClInclude Include="BGE_FileReader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BGE_ContentConverter.tpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
